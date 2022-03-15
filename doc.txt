@@ -1,0 +1,15 @@
+packages:
+    yarn add -D prisma@latest
+    yarn add @prisma/client
+    yarn add @nestjs/config
+    yarn add class-validator class-transformer
+    yarn add bcrypt
+    yarn add -D @types/bcrypt
+    yarn add @nestjs/jwt passport-jwt
+    yarn add -D @types/passport-jwt
+    yarn add @nestjs/passport passport
+
+commands:
+    npx prisma init
+    npx prisma migrate dev
+    npx prisma studio
